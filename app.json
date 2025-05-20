@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "name": "Brothers Nook POS",
+    "slug": "pos-app",
+    "version": "1.0.0",
+    "orientation": "landscape",
+    "icon": "./assets/images/nook.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/nook.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/nook.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.kenneth10.posapp"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/nook.png",
+      "name": "Brothers Nook POS",
+      "shortName": "Nook POS",
+      "description": "Brothers Nook Point of Sale System",
+      "lang": "en",
+      "scope": "/",
+      "themeColor": "#F36514",
+      "backgroundColor": "#FFFFFF",
+      "startUrl": "/?source=pwa",
+      "display": "standalone",
+      "orientation": "landscape",
+      "icons": [
+        {
+          "src": "./assets/images/nook.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "./assets/images/nook.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "newArchEnabled": true,
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "d4a7656a-b3af-4cfd-8fcc-c86e8d116c21"
+      }
+    }
+  }
+}
